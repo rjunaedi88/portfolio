@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en" id="home">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <title>My Portfolio</title>
+
+  <!-- Bootstrap -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+  <!-- navbar -->
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+          data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a href="#home" class="navbar-brand page-scroll">Rachmat Junaedi</a>
+      </div>
+
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#about" class="page-scroll">About</a></li>
+          <li><a href="#portfolio" class="page-scroll">Portfolio</a></li>
+          <li><a href="#contact" class="page-scroll">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- akhir navbar -->
+
+  <!-- jombotron -->
+  <div class="jumbotron text-center">
+    <img src="img/rj.png">
+  </div>
+  <!-- akhir jumbotron -->
+
+  <!-- about -->
+  <section class="about" id="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <h2 class="text-center">About</h2>
+          <hr>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-5 text-center col-sm-offset-1">
+          <img src="img/rahmat.jpg" class="img-circle">
+          <h1>Rachmat Junaedi</h1>
+          <p>Web Developer | Programmer</p>
+        </div>
+        <div class="col-sm-5">
+          <p class="pKanan">Saya remaja berusia 26 tahun yang sedang mencari jati diri untuk mengejar cita - cita saya.
+            Saya belum menikah, yang berdomisili di cengkareng, Jakarta Barat. Saya memiliki semangat dalam hidup saya ,
+            terutama dalam mencari wawasan ilmu dan pengalaman bekerja<br><br> Memutuskan untuk kuliah sambil bekerja
+            menjadikan diri saya sebagai pribadi yang mandiri walaupun beberapa kali mengambil resiko dan mendapatkan
+            kegagalan. <br><br>Berbekal ilmu yang saya dapatkan pada saat saya kuliah menjadikan harapan kedepan buat
+            saya untuk mengembangkan diri saya sebagai programmer , besar harapan saya yang memiliki minat untuk menjadi
+            seorang programmer. </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- akhir about -->
+
+  <!-- portfolio -->
+  <section class="portfolio" id="portfolio">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <h2 class="text-center">Portfolio</h2>
+          <hr>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-4">
+          <a href="http://sumberkotak.com/" class="thumbnail">
+            <img src="img/portfolio/sumber_kotak.jpg">
+            <p align="center"> Sumber Kotak</p>
+          </a>
+        </div>
+        <div class="col-sm-4">
+          <a href="file:///C:/Users/rjunaedi/Desktop/monica-store/index.html" class="thumbnail">
+            <img src="img/portfolio/monica_store.jpg">
+            <p align="center">Monica Store</p>
+          </a>
+        </div>
+        <div class="col-sm-4">
+          <a href="http://localhost/phpmvc/public/" class="thumbnail">
+            <img src="img/portfolio/mvc.jpg">
+            <p align="center">Aplikasi CRUD Mahasiswa</p>
+          </a>
+        </div>
+        <div class="col-sm-4">
+          <a href="http://localhost:8081/" class="thumbnail">
+            <img src="img/portfolio/dicoding.jpg">
+            <p align="center">Submission Fundamental Frontend</p>
+          </a>
+        </div>
+        <div class="col-sm-4">
+          <a href="file:///C:/Users/rjunaedi/Desktop/submissionDicoding/index.html" class="thumbnail">
+            <img src="img/portfolio/dicoding_web.jpg">
+            <p align="center">Submission Dasar Pemrograman Web</p>
+          </a>
+        </div>
+        <div class="col-sm-4">
+          <a href="http://localhost/sipeg/" class="thumbnail">
+            <img src="img/portfolio/sipeg.jpg">
+            <p align="center">CI - Sistem Informasi Pegawai</p>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- akhir portfolio -->
+
+  <!-- Contact -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 text-center">
+          <h2>Contact</h2>
+          <hr>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-8 col-sm-offset-2">
+          <form>
+            <div class="form-group">
+              <label for="nama">Nama</label>
+              <input type="text" id="nama" class="form-control" placeholder="masukkan nama">
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" class="form-control" placeholder="masukkan email">
+            </div>
+            <div class="form-group">
+              <label for="telp">Telepon</label>
+              <input type="tel" id="telp" class="form-control" placeholder="masukkan telp">
+            </div>
+
+            <select class="form-control">
+              <option> -- Pilih kategori -- </option>
+              <option>Web Desain</option>
+              <option>Web Development</option>
+            </select>
+            <div class="form-group">
+              <label for="pesan">Pesan</label>
+              <textarea class="form-control" rows="10"></textarea>
+            </div>
+            <button type="submit" class="btn btn-success">Kirim</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- akhir contact -->
+
+  <!-- footer -->
+  <footer>
+    <div class="container text-center">
+      <div class="row">
+        <div class="row">
+          <div class="col-sm-12">
+            <p>&copy copyright 2019 | built with <i class="glyphicon glyphicon-heart"></i> by. <a
+                href="http://instagram.com/rjunaedi88">Rachmat Junaedi</a>.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </footer>
+  <!-- akhir footer -->
+
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
